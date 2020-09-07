@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: work4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\pan\AppData\Local\Temp\RSPC112.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/work4.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\my c\work4\1.cpp"
+]
+Creating command line "cl.exe @C:\Users\pan\AppData\Local\Temp\RSPC112.tmp" 
+Creating temporary file "C:\Users\pan\AppData\Local\Temp\RSPC113.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/work4.pdb" /debug /machine:I386 /out:"Debug/work4.exe" /pdbtype:sept 
+".\Debug\1.obj"
+]
+Creating command line "link.exe @C:\Users\pan\AppData\Local\Temp\RSPC113.tmp"
+<h3>Output Window</h3>
+Compiling...
+1.cpp
+D:\my c\work4\1.cpp(6) : error C2182: 'showtime' : illegal use of type 'void'
+D:\my c\work4\1.cpp(7) : error C2059: syntax error : '{'
+D:\my c\work4\1.cpp(7) : error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+D:\my c\work4\1.cpp(30) : error C2143: syntax error : missing ';' before '.'
+D:\my c\work4\1.cpp(30) : error C2143: syntax error : missing ';' before '.'
+D:\my c\work4\1.cpp(31) : error C2065: 'myclock' : undeclared identifier
+D:\my c\work4\1.cpp(31) : error C2228: left of '.showtime' must have class/struct/union type
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+work4.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
